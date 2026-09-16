@@ -1,0 +1,11 @@
+{
+  "example.com/personal": {
+    "credentialAlias": "example-personal",
+    "loginUrl": "https://example.com/login",
+    "allowedOrigins": ["https://example.com"],
+    "usernameSelector": "#username",
+    "passwordSelector": "#password",
+    "submitSelector": "button[type=submit]",
+    "successSelector": "[data-testid=account-home]"
+  }
+}

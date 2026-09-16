@@ -1,0 +1,16 @@
+{
+  "name": "session-browser-skill",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local headed, headless, and explicitly shared-browser session skill for Windows.",
+  "type": "module",
+  "keywords": ["browser", "playwright", "session", "edge", "chrome", "native-messaging"],
+  "engines": { "node": ">=22.0.0", "npm": ">=10.0.0" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "node scripts/browser.mjs serve",
+    "start:headless": "node scripts/browser.mjs serve --headless",
+    "install:browser": "playwright install chromium"
+  },
+  "dependencies": { "playwright": "^1.58.0" }
+}

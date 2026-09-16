@@ -1,0 +1,16 @@
+node_modules/
+test-results/
+playwright-report/
+*.log
+.env
+.env.*
+!*.example
+
+# Never publish local browser state or credential material.
+profiles/
+vault/
+screenshots/
+SessionBrowser/
+*.credential.xml
+storage-state*.json
+data/

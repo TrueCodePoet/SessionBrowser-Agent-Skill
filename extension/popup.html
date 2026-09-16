@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session Browser</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header><h1>Session Browser</h1><span id="connection" role="status">Disconnected</span></header>
+  <main>
+    <p id="origin">No supported tab</p>
+    <label class="access"><input id="control" type="checkbox"> Allow page controls</label>
+    <button id="share" type="button">Share This Tab</button>
+    <h2>Shared Tabs</h2>
+    <ul id="tabs"></ul>
+    <button id="disconnect" class="secondary" type="button">Disconnect All</button>
+    <p id="error" role="alert"></p>
+  </main>
+  <footer><span id="profile"></span><span>Extension ID</span><code id="extension-id"></code></footer>
+  <script type="module" src="popup.mjs"></script>
+</body>
+</html>

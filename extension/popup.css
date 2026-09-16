@@ -1,0 +1,22 @@
+:root { color-scheme: light; font-family: "Segoe UI", sans-serif; color: #202b30; background: #f6f8f9; letter-spacing: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; width: 360px; max-width: 100vw; font-size: 14px; }
+header, main, footer { padding: 16px; }
+header { border-bottom: 1px solid #d6dfe2; background: #fff; }
+h1 { margin: 0 0 6px; font-size: 19px; font-weight: 600; }
+h2 { margin: 22px 0 8px; font-size: 14px; font-weight: 600; }
+#connection { color: #455f69; font-size: 12px; }
+#origin { margin: 0 0 14px; font-weight: 600; overflow-wrap: anywhere; }
+.access { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+input { accent-color: #14674f; }
+button { border: 1px solid #14674f; border-radius: 4px; padding: 9px 12px; background: #14674f; color: #fff; font: inherit; cursor: pointer; }
+button:disabled { opacity: .55; cursor: default; }
+button:focus-visible, input:focus-visible { outline: 2px solid #207bc3; outline-offset: 3px; }
+.secondary { background: #fff; color: #293e47; border-color: #acbbc2; }
+ul { list-style: none; padding: 0; margin: 0 0 16px; }
+li { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 0; border-bottom: 1px solid #d6dfe2; }
+li span { min-width: 0; overflow-wrap: anywhere; }
+li button { flex: none; padding: 5px 8px; font-size: 12px; }
+#error { color: #a12233; overflow-wrap: anywhere; margin-bottom: 0; }
+footer { display: grid; gap: 4px; border-top: 1px solid #d6dfe2; color: #53626a; font-size: 11px; }
+code { font-size: 11px; overflow-wrap: anywhere; }

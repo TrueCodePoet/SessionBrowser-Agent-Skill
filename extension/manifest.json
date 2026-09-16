@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Session Browser Connector",
+  "version": "0.1.0",
+  "description": "Explicitly share selected browser tabs with your local Session Browser skill.",
+  "permissions": ["activeTab", "scripting", "nativeMessaging"],
+  "background": { "service_worker": "background.mjs", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "Session Browser Connector" },
+  "incognito": "not_allowed",
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'" }
+}
